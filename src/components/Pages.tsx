@@ -68,8 +68,7 @@ export function Shop({ category }: { category?: string }) {
       </h1>
       <p className="muted">
         {ar
-          ? "مجموعة تجريبية — الأسعار والصور توضيحية والمخزون غير مؤكد."
-          : "Collection de démonstration — prix et visuels indicatifs, disponibilité à confirmer."}
+          ? "
       </p>
       <div className="filter-bar">
         <label className="search-field">
@@ -252,19 +251,17 @@ export function ProductPage({ product: p }: { product: Product }) {
           </div>
           <p>
             {ar
-              ? "موديل تجريبي من مجموعة نوفيل ألور. الصور والأسعار توضيحية. يرجى تأكيد المواصفات والمقاسات والتوفر عبر واتساب قبل أي شراء حقيقي."
+              ? " من مجموعة نوفيل ألور. الصور والأسعار توضيحية. يرجى تأكيد المواصفات والمقاسات والتوفر عبر واتساب قبل أي شراء حقيقي."
               : p.description}
           </p>
           <div className="sample-box">
             {ar
-              ? "منتج تجريبي. المخزون غير مؤكد. الطلبات المسجلة تجريبية وغير قابلة للشحن."
-              : "Produit de démonstration. Stock non confirmé. Les commandes enregistrées sont des demandes de test, sans expédition."}
+              ?
           </div>
           <p className="stock-note">
             {p.stock === null
               ? ar
-                ? "المخزون غير مؤكد"
-                : "Stock à confirmer"
+                ? 
               : p.stock === 0
                 ? ar
                   ? "غير متوفر"
@@ -374,8 +371,7 @@ export function ProductPage({ product: p }: { product: Product }) {
             </summary>
             <p>
               {ar
-                ? "موديل تجريبي. ستضاف الخامات والقياسات وإرشادات العناية مع المجموعة الحقيقية. تواصلي معنا لأي معلومات."
-                : "Modèle de démonstration. Les matières, mesures et conseils d’entretien définitifs seront renseignés avec le catalogue réel. Contactez-nous pour toute information."}
+              
             </p>
           </details>
           <details>
@@ -659,8 +655,7 @@ export function Cart({ checkout = false }: { checkout?: boolean }) {
                     ? "جارٍ التسجيل…"
                     : "Enregistrement en cours…"
                   : ar
-                    ? "تسجيل الطلب التجريبي"
-                    : "Enregistrer la commande de démonstration"}{" "}
+                    ? 
                 <ArrowRight size={18} />
               </button>
             </form>
