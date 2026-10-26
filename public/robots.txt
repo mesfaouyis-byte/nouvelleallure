@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /panier
+Disallow: /commander
+Disallow: /confirmation
+Disallow: /compte
+Disallow: /api/
+Sitemap: https://moroccan-fashion-store.netlify.app/sitemap.xml
