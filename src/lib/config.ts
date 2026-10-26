@@ -1,10 +1,10 @@
 export const store = {
   name: "NOUVELLE ALLURE",
   whatsapp: "+212712465913",
-  whatsappUrl: "https://wa.me/212712465913",
+  whatsappUrl: "https://wa.me/0714930870",
   deliveryFee: 35,
   freeDeliveryFrom: 699,
-  demo: true,
+  demo: false,
   origin: "https://moroccan-fashion-store.netlify.app",
 };
 export const money = (n: number) => `${n.toLocaleString("fr-MA")} DH`;
